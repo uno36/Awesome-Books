@@ -140,9 +140,9 @@ Example:
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/emmanuel-tofa-673b2516a/)
 
 👤 **Author2**
-- GitHub: [@uno36](https://github.com/TiteLunda)
-- Twitter: [@titelunda](https://twitter.com/titelunda)
-
+- GitHub: [@TiteLunda](https://github.com/TiteLunda)
+- Twitter: [@LundaTite](https://twitter.com/LundaTite)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/tite-lunda-094956199/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
