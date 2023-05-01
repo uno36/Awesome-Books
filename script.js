@@ -70,22 +70,22 @@ const UI = {
 };
 
 function init() {
-    UI.displayBooks();
-  
-    document.querySelector('#form').addEventListener('submit', (e) => {
-      e.preventDefault();
-      const title = document.querySelector('#title').value;
-      const author = document.querySelector('#author').value;
-  
-      const book = Book.create(title, author);
-      UI.addBookToList(book);
-      Store.addBook(book);
-      UI.clearFields();
-    });
-  
-    document.querySelector('#books').addEventListener('click', (e) => {
-      UI.deleteBook(e.target);
-    });
-  }
-  
-  document.addEventListener('DOMContentLoaded', init);
+  UI.displayBooks();
+
+  document.querySelector('#form').addEventListener('submit', (e) => {
+    e.preventDefault();
+    const title = document.querySelector('#title').value;
+    const author = document.querySelector('#author').value;
+
+    const book = Book.create(title, author);
+    UI.addBookToList(book);
+    Store.addBook(book);
+    UI.clearFields();
+  });
+
+  document.querySelector('#books').addEventListener('click', (e) => {
+    UI.deleteBook(e.target);
+  });
+}
+
+document.addEventListener('DOMContentLoaded', init);
