@@ -143,6 +143,7 @@ Example:
 - GitHub: [@TiteLunda](https://github.com/TiteLunda)
 - Twitter: [@LundaTite](https://twitter.com/LundaTite)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/tite-lunda-094956199/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
