@@ -1,0 +1,174 @@
+body {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-bar {
+    border: 4px solid;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    align-items: center;
+    height: 40px;
+    width: 90%;
+    margin: 40px auto;    
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;           
+}
+
+.nav-span {
+    margin-left: 1010px;
+}
+
+.nav-item2 a, 
+.nav-item1 a {
+    border-right: 4px solid;    
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+    padding: 10px;     
+    
+}
+
+span {
+  font-weight: 100;
+}
+
+h1 {
+    font-family: 'comic Sans MS', Arial, Helvetica, sans-serif;
+    align-items: center;    
+}
+
+
+.new-book, h2 {
+  font-family: 'comic Sans MS', Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+#books > div {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px;
+  height: 45px;
+  align-items: center;
+}
+
+#books > div > .remove {
+  width: 100px;
+  height: 30px;
+  box-shadow: 3px 3px rgba(0, 0, 0, 1);
+  border: 2px solid rgba(0, 0, 0, 1);
+  margin-right: 20px;
+  cursor: pointer;
+  background-color: #ffff;
+  font-weight: 900;
+}
+
+.new-book {
+  font-size: 40px;
+  margin-bottom: -10px;
+  font-weight: 900;
+}
+
+.book-new {
+  width: 200px;
+  border: 2px solid rgba(0, 0, 0, 1);
+  margin-top: 30px;
+}
+
+#books {
+  border: 4px solid rgba(0, 0, 0, 1);
+  width: 50%;
+  margin: auto;
+  margin-bottom: 160px;
+  margin-top: -20px;
+}
+
+#title {
+  margin-top: 30px;
+}
+
+#title,
+#author {
+  width: 30.1%;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  border: 2px solid rgba(0, 0, 0, 1);
+  
+}
+
+#form {
+    text-align: center;
+    margin-top: -550px;
+}
+
+#submit {
+  float: right;
+  margin-right: 34%;
+  padding: 10px;
+  width: 100px;
+  cursor: pointer;
+  border: 2px solid rgba(0, 0, 0, 1);
+  font-family: 'Comic Sans Ms', Arial, Helvetica, sans-serif;
+  background-color: #ffff;
+  font-weight: 900;
+}
+
+fieldset {
+    border: none;
+}
+
+.awesome {
+    margin-top: 20px;
+}
+
+footer {
+    border: 2px solid;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Comic Sans Ms', Arial, Helvetica, sans-serif;
+}
+ #date {
+    text-align: right;
+    font-family: 'Comic Sans Ms',Arial, Helvetica, sans-serif;
+    margin-right: 35px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+.info {
+    font-family: 'Comic Sans Ms',Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: -300px;
+    font-size: 40px;
+}
+
+.hello {
+    font-family: 'Comic Sans Ms',Arial, Helvetica, sans-serif;
+    text-align: center;    
+}
+
+
+.contacts-div {
+    font-family: 'Comic Sans Ms',Arial, Helvetica, sans-serif; 
+    width: 430px;
+    margin: auto;
+    margin-bottom: 200px;
+    
+}
