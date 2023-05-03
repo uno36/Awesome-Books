@@ -32,7 +32,13 @@ class Store {
       localStorage.setItem('books', JSON.stringify(books));
     }
   }
+
+  static clearStorage() {
+    localStorage.removeItem('books');
+  }
 }
+
+window.addEventListener('load', Store.clearStorage);
 
 class UI {
   static displayBooks() {
