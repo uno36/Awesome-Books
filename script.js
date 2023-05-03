@@ -100,6 +100,7 @@ const contactSection = document.querySelector('.contact');
 form.classList.add('hidden');
 contactSection.classList.add('hidden');
 list.style.textDecoration = ('underline');
+hr.classList.add('hidden')
 
 list.addEventListener('click', () => {
   list.style.textDecoration = ('underline');
