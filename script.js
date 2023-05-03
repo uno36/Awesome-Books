@@ -44,7 +44,7 @@ class UI {
   static addBookToList(book) {
     const list = document.querySelector('#books');
     const details = document.createElement('div');
-    details.style.backgroundColor = 'rgba(125, 125, 125, 03)';
+    details.style.backgroundColor = 'rgba(125, 125, 125, 0.3)';
     details.innerHTML = `
         <h5>"${book.title}" by <span>${book.author}</span></h5>
         <input type="submit" class="remove" value="Remove">        
