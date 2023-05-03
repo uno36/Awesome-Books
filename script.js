@@ -87,7 +87,6 @@ document.querySelector('#books').addEventListener('click', (e) => {
   UI.deleteBook(e.target);
 });
 
-
 const list = document.querySelector('#list');
 const addNew = document.querySelector('.nav-item2');
 const contact = document.querySelector('#contact');
@@ -100,7 +99,7 @@ const contactSection = document.querySelector('.contact');
 form.classList.add('hidden');
 contactSection.classList.add('hidden');
 list.style.textDecoration = ('underline');
-hr.classList.add('hidden')
+hr.classList.add('hidden');
 
 list.addEventListener('click', () => {
   list.style.textDecoration = ('underline');

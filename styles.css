@@ -4,38 +4,37 @@ body {
 }
 
 .nav-bar {
-    border: 4px solid;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 40px;
-    align-items: center;
-    height: 40px;
-    width: 90%;
-    margin: 40px auto;    
+  border: 4px solid;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+  align-items: center;
+  height: 40px;
+  width: 90%;
+  margin: 40px auto;
 }
 
 .nav-links {
-    display: flex;
-    list-style-type: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    font-weight: 400;           
+  display: flex;
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .nav-span {
-    margin-left: 1010px;
+  margin-left: 1010px;
 }
 
-.nav-item2 a, 
+.nav-item2 a,
 .nav-item1 a {
-    border-right: 4px solid;    
+  border-right: 4px solid;
 }
 
 .nav-item a {
-    text-decoration: none;
-    color: rgba(0, 0, 0, 1);
-    padding: 10px;     
-    
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+  padding: 10px;
 }
 
 span {
@@ -43,12 +42,12 @@ span {
 }
 
 h1 {
-    font-family: 'comic Sans MS', Arial, Helvetica, sans-serif;
-    align-items: center;    
+  font-family: 'comic Sans MS', Arial, Helvetica, sans-serif;
+  align-items: center;
 }
 
-
-.new-book, h2 {
+.new-book,
+h2 {
   font-family: 'comic Sans MS', Arial, Helvetica, sans-serif;
   font-size: 50px;
   text-align: center;
@@ -107,12 +106,11 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
   border: 2px solid rgba(0, 0, 0, 1);
-  
 }
 
 #form {
-    text-align: center;
-    margin-top: -550px;
+  text-align: center;
+  margin-top: -550px;
 }
 
 #submit {
@@ -128,48 +126,48 @@ h1 {
 }
 
 fieldset {
-    border: none;
+  border: none;
 }
 
 .awesome {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 footer {
-    border: 2px solid;
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    margin-top: 100px;
-    font-family: 'Comic Sans Ms', Arial, Helvetica, sans-serif;
+  border: 2px solid;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+  font-family: 'Comic Sans Ms', Arial, Helvetica, sans-serif;
 }
- #date {
-    text-align: right;
-    font-family: 'Comic Sans Ms',Arial, Helvetica, sans-serif;
-    margin-right: 35px;
+
+#date {
+  text-align: right;
+  font-family: 'Comic Sans Ms', Arial, Helvetica, sans-serif;
+  margin-right: 35px;
 }
 
 .hidden {
-    visibility: hidden;
+  visibility: hidden;
 }
+
 .info {
-    font-family: 'Comic Sans Ms',Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    text-align: center;
-    margin-top: -230px;
-    font-size: 40px;
+  font-family: 'Comic Sans Ms', Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: -230px;
+  font-size: 40px;
 }
 
 .hello {
-    font-family: 'Comic Sans Ms',Arial, Helvetica, sans-serif;
-    text-align: center;    
+  font-family: 'Comic Sans Ms', Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 
-
 .contacts-div {
-    font-family: 'Comic Sans Ms',Arial, Helvetica, sans-serif; 
-    width: 430px;
-    margin: auto;
-    margin-bottom: 200px;
-    
+  font-family: 'Comic Sans Ms', Arial, Helvetica, sans-serif;
+  width: 430px;
+  margin: auto;
+  margin-bottom: 200px;
 }
