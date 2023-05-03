@@ -8,18 +8,51 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Awesome Books</h1>
+    <header class="header">
+        <nav class="nav-bar">
+            <h1>Awesome Books</h1>
+            <ul class="nav-links">
+                <li class="nav-item nav-item1" id="list"><a href="#" >List</span></a></li>
+                <li class="nav-item nav-item2" id="add-new"><a href="#" >Add new</a></li>
+                <li class="nav-item nav-item3" id="contact"><a href="#" >Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="date"></div>
+    <h2 class="awesome">All awesome books</h2>
     <div id="books">
     </div>
     <hr class="book-new">
-    <p class="new-book">Add a new book</p>
+      
     <form id="form">
-        <input type="text" id="title" placeholder="Title" required><br><br>
-        <input type="text" id="author" placeholder="Author" required><br><br>
-        <input type="submit" name="submit" id="submit" value="Add">
+        <p class="new-book">Add a new book</p>
+        <fieldset>
+            <input type="text" id="title" placeholder="Title" required>
+        </fieldset>
+        <fieldset>
+            <input type="text" id="author" placeholder="Author" required>
+        </fieldset>
+        <fieldset>
+            <input type="submit" name="submit" id="submit" value="Add">
+        </fieldset>
     </form> 
-    
-
+    <section class="contact">
+        <h3 class="info">Contact Information</h3>
+        <p class="hello">Do you have any questions or you just want to say "hello"?</p>
+        
+        <div class="contacts-div">
+            <p class="reach">You can reach out to us!!!</p>
+        <ul class="contacts">
+            <li class="contact-item">Our e-mail: mail@mail.com</li>
+            <li class="contact-item">Our phone number: 0043586534422</li>
+            <li class="contact-item">Our address: Streetname 22, 84503 City, Country</li>
+        </ul>
+        </div>
+    </section>
+        
+    <footer>
+        <p class="copyright">&copy; copyright microverse 2023 all rights reserved</p>
+    </footer>
     <script src="script.js" defer></script>
 </body>
 </html>

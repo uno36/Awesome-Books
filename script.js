@@ -1,5 +1,5 @@
 /* eslint-disable max-classes-per-file */
-
+document.getElementById('date').innerHTML = Date();
 class Book {
   constructor(title, author) {
     this.title = title;
