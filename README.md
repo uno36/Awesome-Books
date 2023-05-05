@@ -144,7 +144,7 @@ Example:
 - Twitter: [@LundaTite](https://twitter.com/LundaTite)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/tite-lunda-094956199/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>..
 
 <!-- FUTURE FEATURES -->
 
@@ -205,7 +205,7 @@ The UI class contains static methods for displaying the list of books in the HTM
 
 Together, these classes allow the user to add books to a list, remove books from the list, and have the list persist even after the page is refreshed.
   
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>..
 
 
 <!-- LICENSE -->
