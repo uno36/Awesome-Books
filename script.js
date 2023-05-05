@@ -48,8 +48,9 @@ class UI {
   }
 
   static addBookToList(book) {
-    const list = document.querySelector('#books');
     const details = document.createElement('div');
+    const list = document.querySelector('#books');
+
     details.style.backgroundColor = 'rgba(125, 125, 125, 0.3)';
     details.innerHTML = `
         <h5>"${book.title}" by <span>${book.author}</span></h5>
@@ -137,3 +138,20 @@ contact.addEventListener('click', () => {
   awesome.classList.add('hidden');
   contactSection.classList.remove('hidden');
 });
+
+const error = document.querySelector('.error');
+const title = document.querySelector('#title');
+const author = document.querySelector('#author');
+
+if (Book.title.trim() !== '' && Book.author.trim() !== '') {
+  Store.push(Book);
+  Store.addBook();
+  UI.displayBooks();
+  error.innerHTML = 'Success !!!';
+  error.classList.replace('error', 'success');
+  title.value = '';
+  author.value = '';
+} else {
+  error.classList.replace('success', 'error');
+  error.innerHTML = 'Auther or Book Title can"t be empty';
+}
